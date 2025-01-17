@@ -25,7 +25,7 @@ function Header_nav({ isLoggedIn, onLogout }) {
     };
 
     const handleMyPage = () => {
-        navigate('/mypage');
+        navigate('/Mypage/MyPage');
     };
 
     const toggleMenu = () => {

@@ -12,6 +12,7 @@ import Writing2 from './components/Writing/Writing2';
 import DiaryWrite from './components/diary/DiaryWrite';
 import DualDiary from './components/diary/DualDiaryWrite';
 import QuestionDiary from './components/diary/QuestionDiary';
+import MyPage from './components/Mypage/MyPage'
 import Login from './components/auth/Login';
 import SignUp from './components/auth/SignUp';
 import CharacterRoom from './components/Contents/CharacterRoom';
@@ -56,6 +57,7 @@ function App() {
                         <Route path='/diary/DiaryWrite' element={<DiaryWrite />} />
                         <Route path='/diary/DualDiary' element={<DualDiary />} />
                         <Route path='/diary/QuestionDiary' element={<QuestionDiary />} />
+                        <Route path='/Mypage/MyPage' element={<MyPage />} />
                       </>
                     )}
                 </Routes>
