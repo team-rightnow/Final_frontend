@@ -10,6 +10,7 @@ justify-self: center;
 align-items: center;
 display: flex;
 position: relative;
+margin-bottom: 3px;
 }
 
 .row{

@@ -161,6 +161,7 @@ body {
   font-size: 12px;
   text-align: left;
   padding-left: 20px;
+  margin: 5px 0;
   color: #767676;
 }
 
@@ -222,6 +223,7 @@ body {
   border: none;
   background-color: #fdfcdc80;
   width: 40px;
+  margin: 5px 0;
   height: 25px;
   text-align: center;
   cursor: pointer;
